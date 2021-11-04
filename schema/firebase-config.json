@@ -162,6 +162,18 @@
                     },
                     "type": "object"
                 },
+                "remoteconfig": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "host": {
+                            "type": "string"
+                        },
+                        "port": {
+                            "type": "number"
+                        }
+                    },
+                    "type": "object"
+                },
                 "database": {
                     "additionalProperties": false,
                     "properties": {
@@ -1963,4 +1975,3 @@
     },
     "type": "object"
 }
-
