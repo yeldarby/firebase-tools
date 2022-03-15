@@ -14,7 +14,7 @@ const DEFAULT_PORTS: { [s in Emulators]: number } = {
   database: 9000,
   auth: 9099,
   storage: 9199,
-  remoteconfig:9200,
+  remoteconfig: 9200,
 };
 
 export const FIND_AVAILBLE_PORT_BY_DEFAULT: Record<Emulators, boolean> = {
