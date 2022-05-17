@@ -1,7 +1,7 @@
+/* eslint-disable @typescript-eslint/unbound-method -- I'm not sure how to make sinon & ts play nice. */
 import { expect } from "chai";
 import * as sinon from "sinon";
 
-import { previews } from "../../../previews";
 import * as artifactregistry from "../../../gcp/artifactregistry";
 import * as backend from "../../../deploy/functions/backend";
 import * as containerCleaner from "../../../deploy/functions/containerCleaner";
